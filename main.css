@@ -4,7 +4,7 @@
 }
 #container
 { border:1px solid blue;
-background:gray;
+background:yellow;
 float:left;
 top: 60px;
 text-indent:0px;
@@ -28,8 +28,8 @@ text-decoration:none;
 padding:.3em 6px;
 }
 #container li a:hover
-{color:white;
-background:orange;
+{color:beige;
+background:pink;
 }
 #container li ul
 {position:absolute;
