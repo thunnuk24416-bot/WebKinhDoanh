@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form-container {
+    background-color: #d8ffff;
+    border: 3px solid #0000ff;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    width: 600px;
+    padding: 12px 20px; 
+    box-sizing: border-box;
+    height: fit-content; 
+}
+
+.form-title {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #008080;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 18px;
+}
+
+.section-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    color: #000000;
+}
+
+.options-grid {
+    display: grid;
+    row-gap: 6px;
+    column-gap: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.grid-2-col {
+    grid-template-columns: 140px auto;
+}
+
+.grid-3-col {
+    grid-template-columns: 160px 150px auto;
+}
+
+.options-grid label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* Định dạng các ô nhập Date ở mục 3 */
+.date-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.date-input {
+    width: 140px;
+    padding: 2px 4px;
+    border: 1px solid #7f9db9;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Ô nhập Keywords rộng ở mục 4 */
+.keyword-input {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #7f9db9;
+    box-sizing: border-box;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.btn-action {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.btn-action img {
+    height: 32px;
+    object-fit: contain;
+    margin-bottom: 2px;
+}
+
+.btn-text {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-text.green {
+    color: #008000;
+}
+
+.btn-text.blue {
+    color: #0000ff;
+}
+
+.btn-text.pink {
+    color: #ff0080;
+}
